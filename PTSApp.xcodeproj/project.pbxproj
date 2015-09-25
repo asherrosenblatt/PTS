@@ -34,6 +34,10 @@
 		BA4BE1231B9B6B3900BF9C1A /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4BE11D1B9B6B3900BF9C1A /* ParseUI.framework */; };
 		BA4BE1251BA33B3800BF9C1A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4BE1241BA33B3800BF9C1A /* MapKit.framework */; };
 		BA6AB7401BABB65B00F07208 /* BuildingDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6AB73F1BABB65B00F07208 /* BuildingDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BA97889D1BB075980073B3F7 /* HomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA97889C1BB075980073B3F7 /* HomeScreenViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BA9788A01BB076040073B3F7 /* SuiteCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA97889F1BB076040073B3F7 /* SuiteCodeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BA9788A31BB082E80073B3F7 /* SearchSuiteCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9788A21BB082E80073B3F7 /* SearchSuiteCodeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BA9788A61BB0858B0073B3F7 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9788A51BB0858B0073B3F7 /* ProfileViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +85,14 @@
 		BA4BE1241BA33B3800BF9C1A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		BA6AB73E1BABB65B00F07208 /* BuildingDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildingDetailViewController.h; sourceTree = "<group>"; };
 		BA6AB73F1BABB65B00F07208 /* BuildingDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildingDetailViewController.m; sourceTree = "<group>"; };
+		BA97889B1BB075980073B3F7 /* HomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeScreenViewController.h; path = ../HomeScreenViewController.h; sourceTree = "<group>"; };
+		BA97889C1BB075980073B3F7 /* HomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeScreenViewController.m; path = ../HomeScreenViewController.m; sourceTree = "<group>"; };
+		BA97889E1BB076040073B3F7 /* SuiteCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuiteCodeViewController.h; sourceTree = "<group>"; };
+		BA97889F1BB076040073B3F7 /* SuiteCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuiteCodeViewController.m; sourceTree = "<group>"; };
+		BA9788A11BB082E80073B3F7 /* SearchSuiteCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchSuiteCodeViewController.h; sourceTree = "<group>"; };
+		BA9788A21BB082E80073B3F7 /* SearchSuiteCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchSuiteCodeViewController.m; sourceTree = "<group>"; };
+		BA9788A41BB0858B0073B3F7 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		BA9788A51BB0858B0073B3F7 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,11 +153,19 @@
 		BA1C441E1B97833E006C6138 /* PTSApp */ = {
 			isa = PBXGroup;
 			children = (
+				BA97889B1BB075980073B3F7 /* HomeScreenViewController.h */,
+				BA97889C1BB075980073B3F7 /* HomeScreenViewController.m */,
 				BA1C44231B97833E006C6138 /* AppDelegate.h */,
 				BA1C44241B97833E006C6138 /* AppDelegate.m */,
 				BA1C44261B97833E006C6138 /* ViewController.h */,
 				BA1C44271B97833E006C6138 /* ViewController.m */,
 				BA1C44291B97833E006C6138 /* Main.storyboard */,
+				BA9788A41BB0858B0073B3F7 /* ProfileViewController.h */,
+				BA9788A51BB0858B0073B3F7 /* ProfileViewController.m */,
+				BA97889E1BB076040073B3F7 /* SuiteCodeViewController.h */,
+				BA97889F1BB076040073B3F7 /* SuiteCodeViewController.m */,
+				BA9788A11BB082E80073B3F7 /* SearchSuiteCodeViewController.h */,
+				BA9788A21BB082E80073B3F7 /* SearchSuiteCodeViewController.m */,
 				BA6AB73E1BABB65B00F07208 /* BuildingDetailViewController.h */,
 				BA6AB73F1BABB65B00F07208 /* BuildingDetailViewController.m */,
 				BA1C442C1B97833E006C6138 /* Images.xcassets */,
@@ -308,9 +328,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA9788A31BB082E80073B3F7 /* SearchSuiteCodeViewController.m in Sources */,
 				BA1C44281B97833E006C6138 /* ViewController.m in Sources */,
+				BA9788A61BB0858B0073B3F7 /* ProfileViewController.m in Sources */,
+				BA97889D1BB075980073B3F7 /* HomeScreenViewController.m in Sources */,
 				BA6AB7401BABB65B00F07208 /* BuildingDetailViewController.m in Sources */,
 				BA1C44251B97833E006C6138 /* AppDelegate.m in Sources */,
+				BA9788A01BB076040073B3F7 /* SuiteCodeViewController.m in Sources */,
 				BA1C44221B97833E006C6138 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

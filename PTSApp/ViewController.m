@@ -75,8 +75,10 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    BuildingDetailViewController *vc = segue.destinationViewController;
-    vc.building = self.selectedBuilding;
+    if ([segue.identifier isEqualToString:@"buildingDetailSegue"]) {
+        BuildingDetailViewController *vc = segue.destinationViewController;
+        vc.building = self.selectedBuilding;
+    }
 }
 
 @end
