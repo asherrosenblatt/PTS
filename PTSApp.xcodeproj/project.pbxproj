@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA04B7581BC2EF1400DBEB90 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA04B7571BC2EF1400DBEB90 /* iCarousel.m */; settings = {ASSET_TAGS = (); }; };
+		BA04B75B1BC2F06800DBEB90 /* PictureOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA04B75A1BC2F06800DBEB90 /* PictureOptionsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BA059DB41BB91A1300C3C95D /* LazyPDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA059DB31BB91A1300C3C95D /* LazyPDFKit.framework */; settings = {ASSET_TAGS = (); }; };
+		BA059DB51BB91A1E00C3C95D /* LazyPDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA059DB31BB91A1300C3C95D /* LazyPDFKit.framework */; };
+		BA059DB61BB91A1E00C3C95D /* LazyPDFKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA059DB31BB91A1300C3C95D /* LazyPDFKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BA1C44221B97833E006C6138 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1C44211B97833E006C6138 /* main.m */; };
 		BA1C44251B97833E006C6138 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1C44241B97833E006C6138 /* AppDelegate.m */; };
 		BA1C44281B97833E006C6138 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1C44271B97833E006C6138 /* ViewController.m */; };
@@ -14,6 +19,7 @@
 		BA1C442D1B97833E006C6138 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA1C442C1B97833E006C6138 /* Images.xcassets */; };
 		BA1C44301B97833E006C6138 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA1C442E1B97833E006C6138 /* LaunchScreen.xib */; };
 		BA1C443C1B97833E006C6138 /* PTSAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1C443B1B97833E006C6138 /* PTSAppTests.m */; };
+		BA3E2C9B1BB91A7E0090E5A4 /* NotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3E2C9A1BB91A7E0090E5A4 /* NotesViewController.m */; settings = {ASSET_TAGS = (); }; };
 		BA4BE1011B9B6AA500BF9C1A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4BE1001B9B6AA500BF9C1A /* AudioToolbox.framework */; };
 		BA4BE1031B9B6AAB00BF9C1A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4BE1021B9B6AAB00BF9C1A /* CFNetwork.framework */; };
 		BA4BE1051B9B6AB200BF9C1A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4BE1041B9B6AB200BF9C1A /* CoreGraphics.framework */; };
@@ -38,6 +44,7 @@
 		BA9788A01BB076040073B3F7 /* SuiteCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA97889F1BB076040073B3F7 /* SuiteCodeViewController.m */; settings = {ASSET_TAGS = (); }; };
 		BA9788A31BB082E80073B3F7 /* SearchSuiteCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9788A21BB082E80073B3F7 /* SearchSuiteCodeViewController.m */; settings = {ASSET_TAGS = (); }; };
 		BA9788A61BB0858B0073B3F7 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9788A51BB0858B0073B3F7 /* ProfileViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BA9788A91BB59F650073B3F7 /* SuiteDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9788A81BB59F650073B3F7 /* SuiteDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +57,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BA059DB71BB91A1F00C3C95D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BA059DB61BB91A1E00C3C95D /* LazyPDFKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		BA04B7561BC2EF1400DBEB90 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		BA04B7571BC2EF1400DBEB90 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		BA04B7591BC2F06800DBEB90 /* PictureOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureOptionsViewController.h; sourceTree = "<group>"; };
+		BA04B75A1BC2F06800DBEB90 /* PictureOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureOptionsViewController.m; sourceTree = "<group>"; };
+		BA059DB31BB91A1300C3C95D /* LazyPDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LazyPDFKit.framework; sourceTree = "<group>"; };
 		BA1C441C1B97833E006C6138 /* PTSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1C44201B97833E006C6138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA1C44211B97833E006C6138 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -64,6 +90,8 @@
 		BA1C44351B97833E006C6138 /* PTSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PTSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1C443A1B97833E006C6138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA1C443B1B97833E006C6138 /* PTSAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTSAppTests.m; sourceTree = "<group>"; };
+		BA3E2C991BB91A7E0090E5A4 /* NotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesViewController.h; sourceTree = "<group>"; };
+		BA3E2C9A1BB91A7E0090E5A4 /* NotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesViewController.m; sourceTree = "<group>"; };
 		BA4BE1001B9B6AA500BF9C1A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		BA4BE1021B9B6AAB00BF9C1A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		BA4BE1041B9B6AB200BF9C1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -93,6 +121,8 @@
 		BA9788A21BB082E80073B3F7 /* SearchSuiteCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchSuiteCodeViewController.m; sourceTree = "<group>"; };
 		BA9788A41BB0858B0073B3F7 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		BA9788A51BB0858B0073B3F7 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		BA9788A71BB59F650073B3F7 /* SuiteDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuiteDetailViewController.h; sourceTree = "<group>"; };
+		BA9788A81BB59F650073B3F7 /* SuiteDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuiteDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +136,12 @@
 				BA4BE1151B9B6AFC00BF9C1A /* Accounts.framework in Frameworks */,
 				BA4BE1131B9B6AF100BF9C1A /* libsqlite3.dylib in Frameworks */,
 				BA4BE1111B9B6AE700BF9C1A /* libz.dylib in Frameworks */,
+				BA059DB51BB91A1E00C3C95D /* LazyPDFKit.framework in Frameworks */,
 				BA4BE10F1B9B6ADC00BF9C1A /* SystemConfiguration.framework in Frameworks */,
 				BA4BE10D1B9B6AD300BF9C1A /* StoreKit.framework in Frameworks */,
 				BA4BE10B1B9B6ACB00BF9C1A /* Security.framework in Frameworks */,
 				BA4BE11E1B9B6B3900BF9C1A /* Bolts.framework in Frameworks */,
+				BA059DB41BB91A1300C3C95D /* LazyPDFKit.framework in Frameworks */,
 				BA4BE1201B9B6B3900BF9C1A /* ParseFacebookUtils.framework in Frameworks */,
 				BA4BE1091B9B6AC300BF9C1A /* QuartzCore.framework in Frameworks */,
 				BA4BE1211B9B6B3900BF9C1A /* ParseFacebookUtilsV4.framework in Frameworks */,
@@ -153,6 +185,8 @@
 		BA1C441E1B97833E006C6138 /* PTSApp */ = {
 			isa = PBXGroup;
 			children = (
+				BA04B7561BC2EF1400DBEB90 /* iCarousel.h */,
+				BA04B7571BC2EF1400DBEB90 /* iCarousel.m */,
 				BA97889B1BB075980073B3F7 /* HomeScreenViewController.h */,
 				BA97889C1BB075980073B3F7 /* HomeScreenViewController.m */,
 				BA1C44231B97833E006C6138 /* AppDelegate.h */,
@@ -160,6 +194,10 @@
 				BA1C44261B97833E006C6138 /* ViewController.h */,
 				BA1C44271B97833E006C6138 /* ViewController.m */,
 				BA1C44291B97833E006C6138 /* Main.storyboard */,
+				BA04B7591BC2F06800DBEB90 /* PictureOptionsViewController.h */,
+				BA04B75A1BC2F06800DBEB90 /* PictureOptionsViewController.m */,
+				BA3E2C991BB91A7E0090E5A4 /* NotesViewController.h */,
+				BA3E2C9A1BB91A7E0090E5A4 /* NotesViewController.m */,
 				BA9788A41BB0858B0073B3F7 /* ProfileViewController.h */,
 				BA9788A51BB0858B0073B3F7 /* ProfileViewController.m */,
 				BA97889E1BB076040073B3F7 /* SuiteCodeViewController.h */,
@@ -168,6 +206,8 @@
 				BA9788A21BB082E80073B3F7 /* SearchSuiteCodeViewController.m */,
 				BA6AB73E1BABB65B00F07208 /* BuildingDetailViewController.h */,
 				BA6AB73F1BABB65B00F07208 /* BuildingDetailViewController.m */,
+				BA9788A71BB59F650073B3F7 /* SuiteDetailViewController.h */,
+				BA9788A81BB59F650073B3F7 /* SuiteDetailViewController.m */,
 				BA1C442C1B97833E006C6138 /* Images.xcassets */,
 				BA1C442E1B97833E006C6138 /* LaunchScreen.xib */,
 				BA1C441F1B97833E006C6138 /* Supporting Files */,
@@ -205,6 +245,7 @@
 		BA4BE0FF1B9B6A8300BF9C1A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BA059DB31BB91A1300C3C95D /* LazyPDFKit.framework */,
 				BA4BE1241BA33B3800BF9C1A /* MapKit.framework */,
 				BA4BE1181B9B6B3900BF9C1A /* Bolts.framework */,
 				BA4BE1191B9B6B3900BF9C1A /* Parse.framework */,
@@ -238,6 +279,7 @@
 				BA1C44181B97833E006C6138 /* Sources */,
 				BA1C44191B97833E006C6138 /* Frameworks */,
 				BA1C441A1B97833E006C6138 /* Resources */,
+				BA059DB71BB91A1F00C3C95D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -328,8 +370,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA3E2C9B1BB91A7E0090E5A4 /* NotesViewController.m in Sources */,
 				BA9788A31BB082E80073B3F7 /* SearchSuiteCodeViewController.m in Sources */,
+				BA9788A91BB59F650073B3F7 /* SuiteDetailViewController.m in Sources */,
 				BA1C44281B97833E006C6138 /* ViewController.m in Sources */,
+				BA04B75B1BC2F06800DBEB90 /* PictureOptionsViewController.m in Sources */,
+				BA04B7581BC2EF1400DBEB90 /* iCarousel.m in Sources */,
 				BA9788A61BB0858B0073B3F7 /* ProfileViewController.m in Sources */,
 				BA97889D1BB075980073B3F7 /* HomeScreenViewController.m in Sources */,
 				BA6AB7401BABB65B00F07208 /* BuildingDetailViewController.m in Sources */,
@@ -463,6 +509,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PTSApp",
@@ -478,6 +525,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PTSApp",

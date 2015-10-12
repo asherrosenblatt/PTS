@@ -7,7 +7,7 @@
 //
 
 #import "SuiteCodeViewController.h"
-#import "SearchSuiteCodeViewController.h"
+#import "SuiteDetailViewController.h"
 
 @interface SuiteCodeViewController ()<UITextFieldDelegate>
 @property (strong, nonatomic) IBOutlet UITextField *suiteCodeTextField;
@@ -30,7 +30,7 @@
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    SearchSuiteCodeViewController *vc = segue.destinationViewController;
+    SuiteDetailViewController *vc = segue.destinationViewController;
     vc.suiteCode = [NSString stringWithFormat:@"%@", self.suiteCodeTextField.text];
 }
 

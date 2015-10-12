@@ -8,6 +8,7 @@
 
 #import "SearchSuiteCodeViewController.h"
 #import <Parse/Parse.h>
+#import "SuiteDetailViewController.h"
 
 @interface SearchSuiteCodeViewController ()
 
@@ -28,5 +29,7 @@
         NSLog(@"%@", objects);
     }];
 }
+
+
 
 @end
