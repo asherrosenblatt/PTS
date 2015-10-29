@@ -105,7 +105,7 @@
             NSString  *documentsDirectory = [paths objectAtIndex:0];
 
             NSString  *filePath = [NSString stringWithFormat:@"%@/%@", documentsDirectory,@"suitePDF.pdf"];
-            [data writeToFile:filePath atomically:YES];
+            [data writeToFile:filePath atomically:NO];
             [self openLazyPDF];
         }
     }];
@@ -172,6 +172,12 @@
 
         [self.selectedSuite saveInBackgroundWithBlock:^(BOOL succeeded, NSError * _Nullable error) {
             NSLog(@"saved");
+            NSArray       *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+            NSString  *documentsDirectory = [paths objectAtIndex:0];
+
+            NSString  *filePath = [NSString stringWithFormat:@"%@/%@", documentsDirectory,@"suitePDF.pdf"];
+            NSData *blankData = [NSData new];
+            [blankData writeToFile:filePath atomically:YES];
         }];
     }];
 }
